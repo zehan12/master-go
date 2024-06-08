@@ -34,6 +34,7 @@ func main() {
 	planet, isTrue, temp = "Mars", true, 19.5
 
 	// ADD YOUR CODE BELOW
+
 	fmt.Printf("Air is good on %s\n", planet)
 	fmt.Println("It's " + strconv.FormatBool(isTrue))
 	fmt.Printf("It is %.1f degrees", temp)
